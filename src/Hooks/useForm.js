@@ -6,7 +6,12 @@ const types = {
         ,
         message: 'Preencha um email válido',
     },
-}
+    password: {
+        regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/
+        ,
+        message: 'A senha precisa ter 1 caracter maíusculo, 1 minúsculo e 1 digito. Com no mínimo 8 characters.',
+    }
+};
 
 const useForm = (type) => {
     const [value, setValue] = React.useState('');
