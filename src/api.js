@@ -8,7 +8,7 @@ export function TOKEN_POST(body) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(),
+            body: JSON.stringify(body),
         }
     }
 }
