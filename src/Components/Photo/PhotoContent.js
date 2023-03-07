@@ -24,8 +24,8 @@ const PhotoContent = ({data}) => {
                     <li>{photo.idade} anos</li>
                 </ul>
             </div>
-        </div>
         <PhotoComments id={photo.id} comments={comments} />
+        </div>
     </div>
   )
 }
