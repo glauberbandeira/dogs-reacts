@@ -5,6 +5,10 @@
    margin: 1rem; 
 }
 
+.sigle.form {
+    margin: 1rem;
+}
+
 .textarea {
     display: block;
     width: 100%;
